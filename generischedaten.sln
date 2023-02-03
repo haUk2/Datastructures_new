@@ -22,11 +22,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTest", "QueueTest\QueueTest.csproj", "{2990FDBA-D593-4C46-B676-DC3F5D3D364A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{5AC00689-1406-420E-BA1B-46B89CC53525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{5AC00689-1406-420E-BA1B-46B89CC53525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tree", "tree\tree.csproj", "{DEEE7E38-9B52-4884-A367-790D58BAE407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tree", "tree\tree.csproj", "{DEEE7E38-9B52-4884-A367-790D58BAE407}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree-Tests", "Tree-Tests\Tree-Tests.csproj", "{167EFD97-79C0-446A-AC2F-AE3984364342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree-Tests", "Tree-Tests\Tree-Tests.csproj", "{167EFD97-79C0-446A-AC2F-AE3984364342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArray_Tests", "MyArray_Tests\MyArray_Tests.csproj", "{E857FF78-532E-4928-898D-711527CA8768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{167EFD97-79C0-446A-AC2F-AE3984364342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{167EFD97-79C0-446A-AC2F-AE3984364342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{167EFD97-79C0-446A-AC2F-AE3984364342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E857FF78-532E-4928-898D-711527CA8768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E857FF78-532E-4928-898D-711527CA8768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E857FF78-532E-4928-898D-711527CA8768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E857FF78-532E-4928-898D-711527CA8768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

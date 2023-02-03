@@ -11,12 +11,14 @@ using System.Xml.Linq;
 
 namespace Array
 {
-    public class array
+    public class Array_Sort
     {
-        public array()
+        public Array_Sort()
         {
             int[] array = null;
         }
+
+
 
         SortStrategy sortstrategy;
         
@@ -26,14 +28,14 @@ namespace Array
         }
 
        
-        public void Sort()
+        public void Sort(int[] array, int start, int end)
         {
-            
+            sortstrategy.Sort(array, start, end);
         }
 
-        public void SortDesc()
+        public void SortDesc(int[] array, int start, int end)
         {
-            
+            sortstrategy.SortDesc(array, start, end);
         }
     }
 }
