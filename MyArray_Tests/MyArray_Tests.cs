@@ -10,7 +10,7 @@ namespace MyArray_Tests
         }
 
         [Test]
-        public void Test1()
+        public void Quicksort_Test()
         {
             var mc = new Array_Sort();
             int[] array = { 5, 2, 19, 6, 0 };

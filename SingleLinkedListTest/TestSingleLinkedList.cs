@@ -12,7 +12,7 @@ namespace TestProject1
         [Test]
         public void SwitchNodes_input1234_expected1324()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(2);
             myList.insert_AtTheEnd(3);

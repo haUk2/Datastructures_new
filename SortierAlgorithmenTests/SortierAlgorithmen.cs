@@ -12,7 +12,7 @@ namespace SortierAlgorithmenTests
         [Test]
         public void Insertsort_UnorderdNummbers_CorrectOrderOfNumbers()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.SetSortStrategy(new InsertionSort());
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(6);
@@ -32,7 +32,7 @@ namespace SortierAlgorithmenTests
 
         public void Insertsort_SomeNummberDouble_CorrectOrderOfNumbersAndNoError()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.SetSortStrategy(new InsertionSort());
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(6);
@@ -50,7 +50,7 @@ namespace SortierAlgorithmenTests
         [Test]
         public void InsertsortReverse_UnorderdNummbers_CorrectOrderOfNumbers()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.SetSortStrategy(new ReverseInsertionSort());
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(6);
@@ -69,7 +69,7 @@ namespace SortierAlgorithmenTests
         [Test]
         public void InsertsortReverse_SomeNummberDouble_CorrectOrderOfNumbersAndNoError()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.SetSortStrategy(new ReverseInsertionSort());
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(6);
@@ -88,7 +88,7 @@ namespace SortierAlgorithmenTests
         [Test]
         public void BubbleSort_UnorderdNummbers_CorrectOrderOfNumbers()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.SetSortStrategy(new BubbleSort());
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(6);
@@ -107,7 +107,7 @@ namespace SortierAlgorithmenTests
         [Test]
         public void RverseBubbleSort_UnorderdNummbers_CorrectOrderOfNumbers()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.SetSortStrategy(new BubbleSort());
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(6);
@@ -126,7 +126,7 @@ namespace SortierAlgorithmenTests
         [Test]
         public void RverseBubbleSort_SomeNummberDouble_CorrectOrderOfNumbers()
         {
-            var myList = new SingleLinkedList();
+            var myList = new LinkedList.SingleLinkedList();
             myList.SetSortStrategy(new BubbleSort());
             myList.insert_AtTheEnd(1);
             myList.insert_AtTheEnd(6);

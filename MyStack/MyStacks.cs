@@ -9,7 +9,7 @@ namespace MyStack
 {
     public class MyStacks
     {
-        private SingleLinkedList internalList = new SingleLinkedList();
+        private LinkedList.SingleLinkedList internalList = new LinkedList.SingleLinkedList();
 
         public Node Push(int argValue)
         {

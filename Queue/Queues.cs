@@ -9,7 +9,7 @@ namespace Queue
 {
     public class Queues : ISubject
     {
-        private SingleLinkedList internalList = new SingleLinkedList();
+        private LinkedList.SingleLinkedList internalList = new LinkedList.SingleLinkedList();
         private List<IObserver> _observers = new List<IObserver>();
 
         public Node Enqueue(int argValue)
